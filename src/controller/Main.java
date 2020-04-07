@@ -1,29 +1,20 @@
 package controller;
 
 import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.Properties;
 
 import utility.ConnectionManager;
 public class Main {
 			public static void main(String args[]) throws Exception {
 
-			/*	//creating object
+				//creating object
 				Connection con;
 				//calling getconnection
 				con=ConnectionManager.getConnection();
 				if(con!=null)
 					System.out.println("Connection established");
 				else
-					System.out.println("Check your connection");   */
+					System.out.println("Check your connection");   
 				
-				Properties prop;
-				//calling getconnection
-				prop=ConnectionManager.loadPropertiesFile();
-				if(prop!=null)
-					System.out.println("Connection established");
-				else
-					System.out.println("Check your connection");
-
+				
 			}
 	}
